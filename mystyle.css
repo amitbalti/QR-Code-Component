@@ -1,0 +1,28 @@
+body {
+  background-color: #e6f3ff;
+  text-align: center;
+  margin: 300px;
+  display: block;
+}
+.qr-div {
+  width: 275px;
+  height: 400px;
+  padding: 1px 1px 30px 1px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.qr-code {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  border-image: url() 100% round;
+  /* border: 1px solid transparent;
+  outline-width: 80px;
+  outline-color: white;
+  outline-style: solid; */
+}
+
+.qr-text {
+  color: gray;
+}
